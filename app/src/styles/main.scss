@@ -1,2 +1,11 @@
 @use './header.scss';
 
+body {
+    background-image: url('../assets/images/nintendo-bg-3840-2160.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    overflow-x: hidden;
+}
